@@ -15,4 +15,4 @@
 2. Bagaimana score review dari customer? Berapa score tertinggi, terendah, serta rata-rata dari review customer?
 
 ## Run Streamlit
-''' streamlit run ./dashboard/dashboard.py '''
+```streamlit run ./dashboard/dashboard.py```
