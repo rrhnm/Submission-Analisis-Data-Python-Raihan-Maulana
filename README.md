@@ -1,18 +1,21 @@
-# Data Analysis E-Commerce Submission (Dicoding)
-
+# Data Analysis Brazillian E-Commerce Olist (Dicoding)✨
 **Data Source**: [Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-## Data Analysis Process:
-- Menentukan Pertanyaan Bisnis
-- Import Packages/Library
-- Data Wrangling
-- Exploratory Data Analysis (EDA)
-- Visualization & Explanatory Analysis
-- Conclusion
+## Setup Environment - Anaconda
+```
+conda create --name main-ds python=3.10.5
+conda activate main-ds
+pip install -r requirements.txt
+```
 
-## Pertanyaan Bisnis:
-1. Bagaimana persebaran seller di ecommerce? State mana yang memiliki seller paling banyak dan paling sedikit?
-2. Bagaimana score review dari customer? Berapa score tertinggi, terendah, serta rata-rata dari review customer?
+## Setup Environment - Shell/Terminal
+```
+mkdir Submission-Analisis-Data-Python-Raihan-Maulana
+cd Submission-Analisis-Data-Python-Raihan-Maulana
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
 
-## Run Streamlit
-'''streamlit run ./dashboard/dashboard.py'''
+## Run steamlit app
+```streamlit run ./dashboard/dashboard.py```
